@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name         = "iflyMSC"
     s.authors      = "Eadkennychan"
-    s.version      = "0.0.1"
+    s.version      = "0.0.2"
     s.summary      = "科大讯飞在线语音合成开发包"
     s.description  = "科大讯飞在线语音合成开发包，2017.08.23"
     s.homepage     = "https://github.com/EadkennyChan/"
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.platform     = :ios
     s.ios.deployment_target = '8.0'
     s.vendored_frameworks ='**/*.framework'
-    s.frameworks = 'AVFoundation','SystemConfiguration','Foundation','CoreTelephoney','AudioToolbox','UIKit','CoreLocation','Contacts','AddressBook','QuartzCore','CoreGraphics'
+    s.frameworks = 'AVFoundation','SystemConfiguration','Foundation','CoreTelephony','AudioToolbox','UIKit','CoreLocation','Contacts','AddressBook','QuartzCore','CoreGraphics'
     s.library = 'z','c++','icucore'
     s.license      = {
         :type => 'Copyright',
