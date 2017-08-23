@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-    s.name         = "iflyMSC"
+    s.name         = "iflyMSC-ZW"
     s.authors      = "Eadkennychan"
-    s.version      = "0.0.2"
+    s.version      = "0.0.3"
     s.summary      = "科大讯飞在线语音合成开发包"
     s.description  = "科大讯飞在线语音合成开发包，2017.08.23"
     s.homepage     = "https://github.com/EadkennyChan/"
